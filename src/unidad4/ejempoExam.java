@@ -44,7 +44,8 @@ int edad1, edad2, edad3, edad4, edadm;
         edadm=edad2;
             System.out.println("mayor "+edadm);
         }else if(edad2==edad1){
-            System.out.println(edad2+"igual"+edad1);}
+            System.out.println(edad2+"igual"+edad1);
+        }
         
         
 
