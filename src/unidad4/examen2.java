@@ -7,23 +7,31 @@ import java.util.Scanner;
 public class examen2 {
     public static void main(String[] args) {
         Scanner leer= new Scanner(System.in);
-        double hora, th, th2, t3; 
+        double hora, total; 
         System.out.println("cuantas horas");
         hora = leer.nextDouble();
-        th=2*15;
-        if (hora>0 && hora<3){
-            th2=hora*15;
-            System.out.println("total "+th2);
-        }else if(hora>2 && hora<4){}
+       
         
-    
-    
-    
-    
-    
-    
-    
-    
+total = 0;
+         if (hora<=2){
+         total=hora*15;
+             System.out.println("xd "+total);
+         }else if (hora<=5){
+          total = 2*15 + (hora - 2)*13;
+             System.out.println("xd "+total);
+         }else if (hora<=10){
+              total = 2*15 + 3*13 + (hora - 5)*8;
+             System.out.println(" xd "+total);
+         } else if(hora>=10){
+         total = 2*15 + 3*13 + 5*8 + (hora - 10)*5;
+             System.out.println("xd "+total);}   
+
+
+
+
+
+
+
     }
         
         
